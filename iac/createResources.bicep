@@ -116,6 +116,11 @@ var resourceTags = {
   Environment: 'testing'
 }
 
+// Ensure the length is at least 3 characters
+if (length(uiStgAccName) < 3) {
+  uiStgAccName = 'fallbackname'
+}
+
 // resources
 ////////////////////////////////////////////////////////////////////////////////
 
