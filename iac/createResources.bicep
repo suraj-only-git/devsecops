@@ -74,7 +74,7 @@ var cartsApiSettingNameKeyVaultEndpoint = 'KeyVaultEndpoint'
 var cartsApiSettingNameManagedIdentityClientId = 'ManagedIdentityClientId'
 
 // storage account (product images)
-var productImagesStgAccName = '${prefix}img${env}'
+var productImagesStgAccName = '${prefix}imgux${env}'
 var productImagesProductDetailsContainerName = 'product-details'
 var productImagesProductListContainerName = 'product-list'
 
@@ -82,18 +82,18 @@ var productImagesProductListContainerName = 'product-list'
 var uiStgAccName = '${prefix}uiux${env}'
 
 // storage account (new website)
-var ui2StgAccName = '${prefix}ui2${env}'
+var ui2StgAccName = '${prefix}uiux2${env}'
 
 // storage account (image classifier)
-var imageClassifierStgAccName = '${prefix}ic${env}'
+var imageClassifierStgAccName = '${prefix}icux${env}'
 var imageClassifierWebsiteUploadsContainerName = 'website-uploads'
 
 
 // cdn
-var cdnProfileName = '${prefixHyphenated}-cdn${env}'
+var cdnProfileName = '${prefixHyphenated}-cdnux${env}'
 var cdnImagesEndpointName = '${prefixHyphenated}-images${env}'
-var cdnUiEndpointName = '${prefixHyphenated}-ui${env}'
-var cdnUi2EndpointName = '${prefixHyphenated}-ui2${env}'
+var cdnUiEndpointName = '${prefixHyphenated}-uiux${env}'
+var cdnUi2EndpointName = '${prefixHyphenated}-ui2ux${env}'
 
 
 // azure container registry
