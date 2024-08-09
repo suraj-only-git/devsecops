@@ -97,7 +97,7 @@ var cdnUi2EndpointName = '${prefixHyphenated}-ui2ux${env}'
 
 
 // azure container registry
-var acrName = '${prefix}acr${env}'
+var acrName = '${prefix}acrux${env}'
 // var acrCartsApiRepositoryName = '${prefix}apicarts' // @TODO: unused, probably remove later
 
 // load testing service
@@ -106,8 +106,8 @@ var logAnalyticsWorkspaceName = '${prefixHyphenated}-loganalytics${env}'
 
 
 // aks cluster
-var aksClusterName = '${prefixHyphenated}-aks${env}'
-var aksClusterDnsPrefix = '${prefixHyphenated}-aks${env}'
+var aksClusterName = '${prefixHyphenated}-aksux${env}'
+var aksClusterDnsPrefix = '${prefixHyphenated}-aksux${env}'
 var aksClusterNodeResourceGroup = '${prefixHyphenated}-aks-nodes-rg-${env}'
 
 // tags
