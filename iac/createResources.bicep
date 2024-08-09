@@ -21,6 +21,8 @@ param aksLinuxAdminUsername string // value supplied via parameters file
 
 param prefix string = 'contosotraders'
 
+param Catalog string = 'Catalog'
+
 param prefixHyphenated string = 'contoso-traders'
 
 // sql
