@@ -21,7 +21,6 @@ param aksLinuxAdminUsername string // value supplied via parameters file
 
 param prefix string = 'contosotraders'
 
-param Catalog string = 'Catalog'
 
 param prefixHyphenated string = 'contoso-traders'
 
@@ -173,7 +172,7 @@ resource kv 'Microsoft.KeyVault/vaults@2022-07-01' = {
     tags: resourceTags
     properties: {
       contentType: 'connection string to the products db'
-      value: 'Server=tcp:${productsDbServerName}${sqlServerHostName},1433;Initial $Catalog=${productsDbName};Persist Security Info=False;User ID=${productsDbServerAdminLogin};Password=${productsDbServerAdminPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+      value: 'Server=tcp:${productsDbServerName}${sqlServerHostName},1433;Initial Catalog=${productsDbName};Persist Security Info=False;User ID=${productsDbServerAdminLogin};Password=${productsDbServerAdminPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
     }
   }
 
@@ -183,7 +182,7 @@ resource kv 'Microsoft.KeyVault/vaults@2022-07-01' = {
     tags: resourceTags
     properties: {
       contentType: 'connection string to the profiles db'
-      value: 'Server=tcp:${profilesDbServerName}${sqlServerHostName},1433;Initial $Catalog=${profilesDbName};Persist Security Info=False;User ID=${profilesDbServerAdminLogin};Password=${profilesDbServerAdminPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+      value: 'Server=tcp:${profilesDbServerName}${sqlServerHostName},1433;Initial Catalog=${profilesDbName};Persist Security Info=False;User ID=${profilesDbServerAdminLogin};Password=${profilesDbServerAdminPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
     }
   }
 
