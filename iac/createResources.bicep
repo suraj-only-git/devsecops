@@ -79,7 +79,7 @@ var productImagesProductDetailsContainerName = 'product-details'
 var productImagesProductListContainerName = 'product-list'
 
 // storage account (old website)
-var uiStgAccName = '${prefix}ui${env}'
+var uiStgAccName = '${prefix}uiux${env}'
 
 // storage account (new website)
 var ui2StgAccName = '${prefix}ui2${env}'
