@@ -31,7 +31,7 @@ param sqlServerHostName string = environment().suffixes.sqlServerHostname
 ////////////////////////////////////////////////////////////////////////////////
 
 // key vault
-var kvName = '${prefix}kv${env}'
+var kvName = '${prefix}kvux${env}'
 var kvSecretNameProductsApiEndpoint = 'productsApiEndpoint'
 var kvSecretNameProductsDbConnStr = 'productsDbConnectionString'
 var kvSecretNameProfilesDbConnStr = 'profilesDbConnectionString'
