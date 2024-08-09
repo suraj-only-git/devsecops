@@ -1083,7 +1083,7 @@ resource loganalyticsworkspace 'Microsoft.OperationalInsights/workspaces@2022-10
 // aks cluster
 //
 
-resource aks 'Microsoft.ContainerService/managedClusters@2022-09-02-preview' = {
+resource aks 'Microsoft.ContainerService/managedClusters@2024-03-02-preview' = {
   name: aksClusterName
   location: resourceLocation
   tags: resourceTags
